@@ -1,1 +1,68 @@
 /* custom css file */
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#top {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 0;
+}
+
+.heading > h2 {
+    font-size: 35px;
+    text-shadow: 1px 2px rgb(16, 70, 71);
+}
+
+.heading > p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+form {
+    margin: 3% auto;
+    padding: 8%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+form > label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#submit {
+    color: white;
+    background-color: orange;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#results {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 2%;
+    margin: 3% 10%;
+}

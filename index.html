@@ -1,1 +1,45 @@
 <!-- main HTML boilerplate -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="">  -->
+    <title>Alkeli | Weather.app</title>
+</head>
+<body>
+    <section id="top">
+        <div class="heading">
+            <h2>
+                Weather Radar
+            </h2>
+            <p>
+                Find the latest weather information around the globe!
+            </p>
+        </div>
+    </section>
+
+    <section id="main">
+        <form>
+            <label for="cname">Country:</label><br>
+            <input type="text" id="cname" name="cname" size="30" required><br>
+            <label for="tname">City:</label><br>
+            <input type="text" id="tname" name="tname" size="30" required>
+            <input type="submit" id="submit" value="Enter">
+        </form>
+    </section>
+
+    <section id="results">
+        <p>
+            Results
+        </p>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
